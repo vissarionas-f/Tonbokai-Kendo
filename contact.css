@@ -1,0 +1,92 @@
+#contact {
+  padding-top: 4rem;
+  padding-bottom: 1.2rem;
+  background-image: url(imgs/bamboo-scene-in-ink-paint-without-heading.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #d21240;
+  text-align: center;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1),
+    0px 7px 5px rgba(0, 0, 0, 0.1); /* readable text */
+}
+
+.contact-h {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* list */
+.contact-info {
+  padding-left: 0;
+  padding-top: 2rem;
+}
+
+.contact-info li {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+.contact-info li a {
+  color: #d21240;
+  text-decoration: none;
+}
+
+.contact-info li a:hover {
+  text-decoration: underline;
+}
+
+.contact-motto {
+  margin-top: 2rem;
+}
+
+.contact-motto::before {
+  content: "✓";
+  color: #dd7631;
+}
+
+.contact-logo {
+  block-size: 7rem;
+  margin-top: 1.5rem;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1),
+    0px 7px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer.footer {
+  color: whitesmoke;
+  padding: 1rem;
+  text-align: center;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1),
+    0px 7px 5px rgba(0, 0, 0, 0.1); /* readable text */
+  background-color: rgb(32, 31, 31);
+}
+
+footer.footer a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer.footer a:hover {
+  text-decoration: underline;
+  color: #dd7631;
+}
+
+/* @media (min-width:992px) {
+    .contact-position {
+        position: relative;
+        top: 3rem;
+    }
+} */
+
+@media (max-width: 991px) {
+    #contact {
+        min-height: 55vh;
+    }
+}
+
+@media (max-width: 500px) {
+    #contact {
+        min-height: 85vh;
+    }
+}
