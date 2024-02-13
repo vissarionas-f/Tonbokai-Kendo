@@ -10,6 +10,11 @@
   background-size: cover;
 }
 
+div.bg-pattern .about-us-title::selection  {
+  color: #d21240; 
+  background-color: whitesmoke;
+}
+
 .about-us-title {
   text-align: center;
   padding-top: 6.5rem;

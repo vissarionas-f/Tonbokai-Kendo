@@ -5,11 +5,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: whitesmoke;
   min-height: 100vh;
   color: #d21240;
   text-align: center;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1),
-    0px 7px 5px rgba(0, 0, 0, 0.1); /* readable text */
+    0px 7px 5px rgba(0, 0, 0, 0.1);
+  /* readable text */
 }
 
 .contact-h {
@@ -42,7 +44,7 @@
 }
 
 .contact-motto::before {
-  content: "✓";
+  content: "β";
   color: #dd7631;
 }
 
@@ -58,7 +60,8 @@ footer.footer {
   padding: 1rem;
   text-align: center;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1),
-    0px 7px 5px rgba(0, 0, 0, 0.1); /* readable text */
+    0px 7px 5px rgba(0, 0, 0, 0.1);
+  /* readable text */
   background-color: rgb(32, 31, 31);
 }
 
@@ -80,13 +83,13 @@ footer.footer a:hover {
 } */
 
 @media (max-width: 991px) {
-    #contact {
-        min-height: 55vh;
-    }
+  #contact {
+    min-height: 55vh;
+  }
 }
 
 @media (max-width: 500px) {
-    #contact {
-        min-height: 85vh;
-    }
+  #contact {
+    min-height: 85vh;
+  }
 }
